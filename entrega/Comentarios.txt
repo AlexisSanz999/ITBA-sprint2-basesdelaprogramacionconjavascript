@@ -1,0 +1,19 @@
+* Buena UI
+
+* El estilo adentro del HTML? --> style="margin-top: 5rem; margin-bottom: 5rem" <--- NOOO. Crear una hoja de estilos y linkearla al HTML.
+
+* Ingles o español, ambos no. Ejemplo: distribute(persona, gastado, c).
+
+* Utilizar nombres descriptivos para las variables y parámetros a las funciones ejemplo: distribute(persona, gastado, c) ¿Qué es c?
+
+* El parámetro person está sin uso dentro de la función distribute
+
+* Si el formulario se envía sin nada, es decir, se aprieta Enviar sin completar el nombre de la persona ni la cantidad que gastó, se hace el cálculo igual
+
+lo que ocasiona que se muestre NaN. Realizar programación defensiva y por ejemplo, hacer que los campos sean requeridos en el form.
+
+* Prestar atención a ortografía y acentos en la UI.
+
+* El formulario admite letras en el campo Ingrese la cantidad que gastó y eso también ocasiona NaN. También admite números negativos.
+
+* Se está haciendo un parseInt() en vez de un parseFloat() osea que la aplicación no admite gastos de montos con decimales.
